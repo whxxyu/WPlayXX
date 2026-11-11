@@ -1,0 +1,1850 @@
+{
+  "id": "com.wplayxx.katalog",
+  "version": "1.46.39",
+  "name": "WPlayXX",
+  "description": "Addon premium all-in-one yang menghadirkan katalog film, serial, dan anime, beserta stream dan subtitle Bahasa Indonesia. Lengkap, terstruktur dan terkurasi — by whxxyu.",
+  "logo": "https://wplayxx.whxxyu.biz.id/static/logo.png",
+  "resources": [
+    "catalog",
+    "meta",
+    "stream",
+    {
+      "name": "subtitles",
+      "types": [
+        "movie",
+        "series"
+      ],
+      "idPrefixes": [
+        "tt",
+        "tmdb:"
+      ]
+    }
+  ],
+  "types": [
+    "movie",
+    "series",
+    "anime"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "trending-movie",
+      "name": "Film Trending",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi",
+            "Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Fantasi",
+            "Sejarah",
+            "Horor",
+            "Musik",
+            "Misteri",
+            "Romansa",
+            "Fiksi Ilmiah",
+            "Film Televisi",
+            "Thriller",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "trending-series",
+      "name": "Serial Trending",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi & Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Anak-anak",
+            "Misteri",
+            "Berita",
+            "Realitas",
+            "Fiksi Ilmiah & Fantasi",
+            "Sinetron",
+            "Bincang-Bincang",
+            "Perang & Politik",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "top-rated-movie",
+      "name": "Film Peringkat Tertinggi",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi",
+            "Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Fantasi",
+            "Sejarah",
+            "Horor",
+            "Musik",
+            "Misteri",
+            "Romansa",
+            "Fiksi Ilmiah",
+            "Film Televisi",
+            "Thriller",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "top-rated-series",
+      "name": "Serial Peringkat Tertinggi",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi & Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Anak-anak",
+            "Misteri",
+            "Berita",
+            "Realitas",
+            "Fiksi Ilmiah & Fantasi",
+            "Sinetron",
+            "Bincang-Bincang",
+            "Perang & Politik",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "popular-movie",
+      "name": "Film Terpopuler",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi",
+            "Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Fantasi",
+            "Sejarah",
+            "Horor",
+            "Musik",
+            "Misteri",
+            "Romansa",
+            "Fiksi Ilmiah",
+            "Film Televisi",
+            "Thriller",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "popular-series",
+      "name": "Serial Terpopuler",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi & Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Anak-anak",
+            "Misteri",
+            "Berita",
+            "Realitas",
+            "Fiksi Ilmiah & Fantasi",
+            "Sinetron",
+            "Bincang-Bincang",
+            "Perang & Politik",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "movie-this-year",
+      "name": "Film Terbaru",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi",
+            "Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Fantasi",
+            "Sejarah",
+            "Horor",
+            "Musik",
+            "Misteri",
+            "Romansa",
+            "Fiksi Ilmiah",
+            "Film Televisi",
+            "Thriller",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "series-this-year",
+      "name": "Serial Terbaru",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi & Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Anak-anak",
+            "Misteri",
+            "Berita",
+            "Realitas",
+            "Fiksi Ilmiah & Fantasi",
+            "Sinetron",
+            "Bincang-Bincang",
+            "Perang & Politik",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "netflix-movie",
+      "name": "Film Netflix Terpopuler",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi",
+            "Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Fantasi",
+            "Sejarah",
+            "Horor",
+            "Musik",
+            "Misteri",
+            "Romansa",
+            "Fiksi Ilmiah",
+            "Film Televisi",
+            "Thriller",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "netflix-series",
+      "name": "Serial Netflix Terpopuler",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi & Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Anak-anak",
+            "Misteri",
+            "Berita",
+            "Realitas",
+            "Fiksi Ilmiah & Fantasi",
+            "Sinetron",
+            "Bincang-Bincang",
+            "Perang & Politik",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "netflix-movie-new",
+      "name": "Film Netflix Terbaru",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi",
+            "Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Fantasi",
+            "Sejarah",
+            "Horor",
+            "Musik",
+            "Misteri",
+            "Romansa",
+            "Fiksi Ilmiah",
+            "Film Televisi",
+            "Thriller",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "netflix-series-new",
+      "name": "Serial Netflix Terbaru",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi & Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Anak-anak",
+            "Misteri",
+            "Berita",
+            "Realitas",
+            "Fiksi Ilmiah & Fantasi",
+            "Sinetron",
+            "Bincang-Bincang",
+            "Perang & Politik",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "disney-movie",
+      "name": "Film Disney+ Terpopuler",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi",
+            "Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Fantasi",
+            "Sejarah",
+            "Horor",
+            "Musik",
+            "Misteri",
+            "Romansa",
+            "Fiksi Ilmiah",
+            "Film Televisi",
+            "Thriller",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "disney-series",
+      "name": "Serial Disney+ Terpopuler",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi & Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Anak-anak",
+            "Misteri",
+            "Berita",
+            "Realitas",
+            "Fiksi Ilmiah & Fantasi",
+            "Sinetron",
+            "Bincang-Bincang",
+            "Perang & Politik",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "disney-movie-new",
+      "name": "Film Disney+ Terbaru",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi",
+            "Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Fantasi",
+            "Sejarah",
+            "Horor",
+            "Musik",
+            "Misteri",
+            "Romansa",
+            "Fiksi Ilmiah",
+            "Film Televisi",
+            "Thriller",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "disney-series-new",
+      "name": "Serial Disney+ Terbaru",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi & Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Anak-anak",
+            "Misteri",
+            "Berita",
+            "Realitas",
+            "Fiksi Ilmiah & Fantasi",
+            "Sinetron",
+            "Bincang-Bincang",
+            "Perang & Politik",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "prime-movie",
+      "name": "Film Prime Video Terpopuler",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi",
+            "Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Fantasi",
+            "Sejarah",
+            "Horor",
+            "Musik",
+            "Misteri",
+            "Romansa",
+            "Fiksi Ilmiah",
+            "Film Televisi",
+            "Thriller",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "prime-series",
+      "name": "Serial Prime Video Terpopuler",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi & Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Anak-anak",
+            "Misteri",
+            "Berita",
+            "Realitas",
+            "Fiksi Ilmiah & Fantasi",
+            "Sinetron",
+            "Bincang-Bincang",
+            "Perang & Politik",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "prime-movie-new",
+      "name": "Film Prime Video Terbaru",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi",
+            "Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Fantasi",
+            "Sejarah",
+            "Horor",
+            "Musik",
+            "Misteri",
+            "Romansa",
+            "Fiksi Ilmiah",
+            "Film Televisi",
+            "Thriller",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "prime-series-new",
+      "name": "Serial Prime Video Terbaru",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi & Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Anak-anak",
+            "Misteri",
+            "Berita",
+            "Realitas",
+            "Fiksi Ilmiah & Fantasi",
+            "Sinetron",
+            "Bincang-Bincang",
+            "Perang & Politik",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "hbomax-movie",
+      "name": "Film HBO Max Terpopuler",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi",
+            "Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Fantasi",
+            "Sejarah",
+            "Horor",
+            "Musik",
+            "Misteri",
+            "Romansa",
+            "Fiksi Ilmiah",
+            "Film Televisi",
+            "Thriller",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "hbomax-series",
+      "name": "Serial HBO Max Terpopuler",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi & Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Anak-anak",
+            "Misteri",
+            "Berita",
+            "Realitas",
+            "Fiksi Ilmiah & Fantasi",
+            "Sinetron",
+            "Bincang-Bincang",
+            "Perang & Politik",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "hbomax-movie-new",
+      "name": "Film HBO Max Terbaru",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi",
+            "Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Fantasi",
+            "Sejarah",
+            "Horor",
+            "Musik",
+            "Misteri",
+            "Romansa",
+            "Fiksi Ilmiah",
+            "Film Televisi",
+            "Thriller",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "hbomax-series-new",
+      "name": "Serial HBO Max Terbaru",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi & Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Anak-anak",
+            "Misteri",
+            "Berita",
+            "Realitas",
+            "Fiksi Ilmiah & Fantasi",
+            "Sinetron",
+            "Bincang-Bincang",
+            "Perang & Politik",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "appletv-movie",
+      "name": "Film Apple TV+ Terpopuler",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi",
+            "Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Fantasi",
+            "Sejarah",
+            "Horor",
+            "Musik",
+            "Misteri",
+            "Romansa",
+            "Fiksi Ilmiah",
+            "Film Televisi",
+            "Thriller",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "appletv-series",
+      "name": "Serial Apple TV+ Terpopuler",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi & Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Anak-anak",
+            "Misteri",
+            "Berita",
+            "Realitas",
+            "Fiksi Ilmiah & Fantasi",
+            "Sinetron",
+            "Bincang-Bincang",
+            "Perang & Politik",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "appletv-movie-new",
+      "name": "Film Apple TV+ Terbaru",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi",
+            "Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Fantasi",
+            "Sejarah",
+            "Horor",
+            "Musik",
+            "Misteri",
+            "Romansa",
+            "Fiksi Ilmiah",
+            "Film Televisi",
+            "Thriller",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "appletv-series-new",
+      "name": "Serial Apple TV+ Terbaru",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi & Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Anak-anak",
+            "Misteri",
+            "Berita",
+            "Realitas",
+            "Fiksi Ilmiah & Fantasi",
+            "Sinetron",
+            "Bincang-Bincang",
+            "Perang & Politik",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "indonesian-movie",
+      "name": "Film Indonesia Terpopuler",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi",
+            "Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Fantasi",
+            "Sejarah",
+            "Horor",
+            "Musik",
+            "Misteri",
+            "Romansa",
+            "Fiksi Ilmiah",
+            "Film Televisi",
+            "Thriller",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "indonesian-series",
+      "name": "Serial Indonesia Terpopuler",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi & Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Anak-anak",
+            "Misteri",
+            "Berita",
+            "Realitas",
+            "Fiksi Ilmiah & Fantasi",
+            "Sinetron",
+            "Bincang-Bincang",
+            "Perang & Politik",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "indonesian-movie-new",
+      "name": "Film Indonesia Terbaru",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi",
+            "Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Fantasi",
+            "Sejarah",
+            "Horor",
+            "Musik",
+            "Misteri",
+            "Romansa",
+            "Fiksi Ilmiah",
+            "Film Televisi",
+            "Thriller",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "indonesian-series-new",
+      "name": "Serial Indonesia Terbaru",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi & Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Anak-anak",
+            "Misteri",
+            "Berita",
+            "Realitas",
+            "Fiksi Ilmiah & Fantasi",
+            "Sinetron",
+            "Bincang-Bincang",
+            "Perang & Politik",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "korean-movie",
+      "name": "Film Korea Terpopuler",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi",
+            "Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Fantasi",
+            "Sejarah",
+            "Horor",
+            "Musik",
+            "Misteri",
+            "Romansa",
+            "Fiksi Ilmiah",
+            "Film Televisi",
+            "Thriller",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "korean-series",
+      "name": "Serial Korea Terpopuler",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi & Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Anak-anak",
+            "Misteri",
+            "Berita",
+            "Realitas",
+            "Fiksi Ilmiah & Fantasi",
+            "Sinetron",
+            "Bincang-Bincang",
+            "Perang & Politik",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "korean-movie-new",
+      "name": "Film Korea Terbaru",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi",
+            "Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Fantasi",
+            "Sejarah",
+            "Horor",
+            "Musik",
+            "Misteri",
+            "Romansa",
+            "Fiksi Ilmiah",
+            "Film Televisi",
+            "Thriller",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "korean-series-new",
+      "name": "Serial Korea Terbaru",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi & Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Anak-anak",
+            "Misteri",
+            "Berita",
+            "Realitas",
+            "Fiksi Ilmiah & Fantasi",
+            "Sinetron",
+            "Bincang-Bincang",
+            "Perang & Politik",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "chinese-movie",
+      "name": "Film Tiongkok Terpopuler",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi",
+            "Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Fantasi",
+            "Sejarah",
+            "Horor",
+            "Musik",
+            "Misteri",
+            "Romansa",
+            "Fiksi Ilmiah",
+            "Film Televisi",
+            "Thriller",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "chinese-series",
+      "name": "Serial Tiongkok Terpopuler",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi & Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Anak-anak",
+            "Misteri",
+            "Berita",
+            "Realitas",
+            "Fiksi Ilmiah & Fantasi",
+            "Sinetron",
+            "Bincang-Bincang",
+            "Perang & Politik",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "chinese-movie-new",
+      "name": "Film Tiongkok Terbaru",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi",
+            "Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Fantasi",
+            "Sejarah",
+            "Horor",
+            "Musik",
+            "Misteri",
+            "Romansa",
+            "Fiksi Ilmiah",
+            "Film Televisi",
+            "Thriller",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "chinese-series-new",
+      "name": "Serial Tiongkok Terbaru",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi & Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Anak-anak",
+            "Misteri",
+            "Berita",
+            "Realitas",
+            "Fiksi Ilmiah & Fantasi",
+            "Sinetron",
+            "Bincang-Bincang",
+            "Perang & Politik",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "animation-movie",
+      "name": "Film Animasi Terpopuler",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi",
+            "Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Fantasi",
+            "Sejarah",
+            "Horor",
+            "Musik",
+            "Misteri",
+            "Romansa",
+            "Fiksi Ilmiah",
+            "Film Televisi",
+            "Thriller",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "animation-series",
+      "name": "Serial Animasi Terpopuler",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi & Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Anak-anak",
+            "Misteri",
+            "Berita",
+            "Realitas",
+            "Fiksi Ilmiah & Fantasi",
+            "Sinetron",
+            "Bincang-Bincang",
+            "Perang & Politik",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "animation-movie-new",
+      "name": "Film Animasi Terbaru",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi",
+            "Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Fantasi",
+            "Sejarah",
+            "Horor",
+            "Musik",
+            "Misteri",
+            "Romansa",
+            "Fiksi Ilmiah",
+            "Film Televisi",
+            "Thriller",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "animation-series-new",
+      "name": "Serial Animasi Terbaru",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Aksi & Petualangan",
+            "Animasi",
+            "Komedi",
+            "Kriminal",
+            "Dokumenter",
+            "Drama",
+            "Keluarga",
+            "Anak-anak",
+            "Misteri",
+            "Berita",
+            "Realitas",
+            "Fiksi Ilmiah & Fantasi",
+            "Sinetron",
+            "Bincang-Bincang",
+            "Perang & Politik",
+            "Barat"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "anime",
+      "id": "otakudesu-terbaru",
+      "name": "Otakudesu Terbaru",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Drama",
+            "Ecchi",
+            "Fantasy",
+            "Gag Humor",
+            "Gore",
+            "Historical",
+            "Horror",
+            "Isekai",
+            "Magic",
+            "Martial Arts",
+            "Mecha",
+            "Military",
+            "Music",
+            "Mystery",
+            "Parody",
+            "Police",
+            "Psychological",
+            "Reincarnation",
+            "Romance",
+            "Samurai",
+            "School",
+            "Sci-Fi",
+            "Seinen",
+            "Shoujo",
+            "Shounen",
+            "Slice of Life",
+            "Sports",
+            "Super Power",
+            "Supernatural",
+            "Survival",
+            "Suspense",
+            "Thriller",
+            "Time Travel",
+            "Urban Fantasy",
+            "Vampire"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "anime",
+      "id": "otakudesu-search",
+      "name": "Cari Otakudesu",
+      "extra": [
+        {
+          "name": "search",
+          "isRequired": true
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "anime",
+      "id": "samehadaku-terbaru",
+      "name": "Samehadaku Terbaru",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Drama",
+            "Ecchi",
+            "Fantasy",
+            "Gag Humor",
+            "Gore",
+            "Historical",
+            "Horror",
+            "Isekai",
+            "Magic",
+            "Martial Arts",
+            "Mecha",
+            "Military",
+            "Music",
+            "Mystery",
+            "Parody",
+            "Police",
+            "Psychological",
+            "Reincarnation",
+            "Romance",
+            "Samurai",
+            "School",
+            "Sci-Fi",
+            "Seinen",
+            "Shoujo",
+            "Shounen",
+            "Slice of Life",
+            "Sports",
+            "Super Power",
+            "Supernatural",
+            "Survival",
+            "Suspense",
+            "Thriller",
+            "Time Travel",
+            "Urban Fantasy",
+            "Vampire"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "anime",
+      "id": "samehadaku-search",
+      "name": "Cari Samehadaku",
+      "extra": [
+        {
+          "name": "search",
+          "isRequired": true
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "anime",
+      "id": "alqanime-terbaru",
+      "name": "Alqanime Terbaru",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Donghua",
+            "Drama",
+            "Ecchi",
+            "Fantasy",
+            "Gag Humor",
+            "Gore",
+            "Historical",
+            "Horror",
+            "Isekai",
+            "Magic",
+            "Martial Arts",
+            "Mecha",
+            "Military",
+            "Music",
+            "Mystery",
+            "Parody",
+            "Police",
+            "Psychological",
+            "Reincarnation",
+            "Romance",
+            "Samurai",
+            "School",
+            "Sci-Fi",
+            "Seinen",
+            "Shoujo",
+            "Shounen",
+            "Slice of Life",
+            "Sports",
+            "Super Power",
+            "Supernatural",
+            "Survival",
+            "Suspense",
+            "Thriller",
+            "Time Travel",
+            "Urban Fantasy",
+            "Vampire"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "anime",
+      "id": "alqanime-search",
+      "name": "Cari Alqanime",
+      "extra": [
+        {
+          "name": "search",
+          "isRequired": true
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "anime",
+      "id": "kuronime-terbaru",
+      "name": "Kuronime Terbaru",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Donghua",
+            "Drama",
+            "Ecchi",
+            "Fantasy",
+            "Gag Humor",
+            "Gore",
+            "Historical",
+            "Horror",
+            "Isekai",
+            "Magic",
+            "Martial Arts",
+            "Mecha",
+            "Military",
+            "Music",
+            "Mystery",
+            "ONA",
+            "Parody",
+            "Police",
+            "Psychological",
+            "Reincarnation",
+            "Romance",
+            "Samurai",
+            "School",
+            "Sci-Fi",
+            "Seinen",
+            "Shoujo",
+            "Shounen",
+            "Slice of Life",
+            "Sports",
+            "Super Power",
+            "Supernatural",
+            "Survival",
+            "Suspense",
+            "Thriller",
+            "Time Travel",
+            "Urban Fantasy",
+            "Vampire"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "anime",
+      "id": "kuronime-search",
+      "name": "Cari Kuronime",
+      "extra": [
+        {
+          "name": "search",
+          "isRequired": true
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "anime",
+      "id": "anisail-terbaru",
+      "name": "Anisail Terbaru",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Donghua",
+            "Drama",
+            "Ecchi",
+            "Fantasy",
+            "Gag Humor",
+            "Gore",
+            "Historical",
+            "Horror",
+            "Isekai",
+            "Magic",
+            "Martial Arts",
+            "Mecha",
+            "Military",
+            "Music",
+            "Mystery",
+            "Parody",
+            "Police",
+            "Psychological",
+            "Reincarnation",
+            "Romance",
+            "Samurai",
+            "School",
+            "Sci-Fi",
+            "Seinen",
+            "Shoujo",
+            "Shounen",
+            "Slice of Life",
+            "Sports",
+            "Super Power",
+            "Supernatural",
+            "Survival",
+            "Suspense",
+            "Thriller",
+            "Time Travel",
+            "Urban Fantasy",
+            "Vampire"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "anime",
+      "id": "anisail-search",
+      "name": "Cari Anisail",
+      "extra": [
+        {
+          "name": "search",
+          "isRequired": true
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "anime",
+      "id": "nekopoi-terbaru",
+      "name": "Nekopoi Terbaru",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Hentai"
+          ],
+          "isRequired": true
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "anime",
+      "id": "nekopoi-search",
+      "name": "Cari Nekopoi",
+      "extra": [
+        {
+          "name": "search",
+          "isRequired": true
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "search-movie",
+      "name": "Cari",
+      "extra": [
+        {
+          "name": "search",
+          "isRequired": true
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "search-series",
+      "name": "Cari",
+      "extra": [
+        {
+          "name": "search",
+          "isRequired": true
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    }
+  ],
+  "idPrefixes": [
+    "tt",
+    "tmdb:",
+    "otakudesu:",
+    "samehadaku:",
+    "alqanime:",
+    "kuronime:",
+    "anisail:",
+    "nekopoi:"
+  ],
+  "behaviorHints": {
+    "configurable": false,
+    "configurationRequired": false
+  }
+}
